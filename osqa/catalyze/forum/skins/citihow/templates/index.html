@@ -1,0 +1,11 @@
+{% extends "questions.html" %}
+<!-- index.html -->
+{% load general_sidebar_tags %}
+{% load question_list_tags %}
+{% load i18n %}
+{% block fulltitle %}{{ settings.APP_TITLE }}{% endblock %}
+{% block sidebar %}
+    {% include "question_list/count.html" %}
+{% endblock %}
+<!-- index.html -->
+

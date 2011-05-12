@@ -1,0 +1,13 @@
+{% extends base %}
+{% load i18n markup node_tags general_sidebar_tags %}
+{% block title %}{% spaceless %}{{ page.title }}{% endspaceless %}{% endblock %}
+
+{% block content %}
+<div class="headNormal">{{ page.title }}</div>
+<div class="content">
+{{ body }}
+</div>
+{% if page.extra.comments %}
+    {% comments page request.user %}
+{% endif %}
+{% endblock %}

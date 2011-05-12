@@ -1,0 +1,4 @@
+.DS_Store
+.ds_store
+osqa/catalyze/settings_local.py
+osqa/catalyze/settings_local*.py

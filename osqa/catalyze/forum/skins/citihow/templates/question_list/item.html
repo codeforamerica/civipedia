@@ -1,0 +1,15 @@
+{% load i18n humanize extra_filters extra_tags user_tags %}
+<div class="short-summary">
+    <div class="question-summary-wrapper">
+        <h2><a title="{{ question.summary }}" href="{{ question.get_absolute_url }}">{{question.headline}}</a></h2>
+        <div class="userinfo">
+            <span class="relativetime" title="{{question.last_activity_at}}">{% diff_date question.last_activity_at %}</span>
+            {% if question.last_activity_by %}{% user_signature question.last_activity_by signature_type %}{% endif %}
+        </div>
+
+        <div class="tags">{% for tag in question.tagname_list %}
+            <a class="tag-link-{{ tag }}" href="{% url tag_questions tag|urlencode %}" title="{% trans "see questions tagged" %} '{{ tag }}'" rel="tag">{{ tag }}</a>{% endfor %}
+        </div>
+    </div>
+
+</div>

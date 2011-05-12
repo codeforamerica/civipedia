@@ -1,0 +1,95 @@
+body {
+  font-family:Helvetica, Arial, sans-serif;
+}
+
+#logo {
+  background-color: #2277ff;
+  width: 150px;
+  height: 100px;
+  margin-left: 90px;
+}
+
+#logo div {
+  position: absolute;
+  top: 70px;
+  margin-left: 17px;
+}
+
+#logo span {
+  color: #FFF;
+  font-size: 1.5em;
+  font-family: 'Oswald', serif;
+  font-style: normal;
+  font-weight: 700;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 1.2;
+}
+
+#sidebar {
+  width: 30%;
+  float: left;
+  border-right: 2px solid black;
+  height: 100%;
+  position: fixed;
+  background-color: #DDD;
+}
+
+#nav {
+  border: 5px solid #666;
+  border-radius: 10px;
+  width: 300px;
+  margin: 50px auto 0 auto;
+}
+
+#search {
+  margin: auto;
+}
+
+#container {
+  margin: 2px;
+}
+
+.nav-item {
+  background-color: #EEE;
+  clear: both;
+}
+
+#tags li {
+  display: block;
+  float: left;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+
+#tags li a {
+  font-size: .7em;
+  text-decoration: none;
+  background-color: #DDD;
+  border: 1px solid #BBB;
+  color: #333;
+  padding: 2px;
+}
+
+#content {
+  width: 100%;
+  margin-left: 30%;
+  float: left;
+  background-color: #EEE;
+  color: #666;
+  font-size: 1.2em;
+}
+
+#content a {
+  color: #333;
+  text-decoration: none;
+}
+
+#content ul {
+  margin-left: 65px;
+}
+
+#content li {
+  margin-bottom: 15px;
+}
