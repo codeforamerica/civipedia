@@ -348,6 +348,10 @@ blockquote blockquote {
     font-size: 17px;
 }
 
+.short-summary .cityquestion h2 a {
+    color: #82a1cf;
+}
+
 .short-summary .userinfo {
     color: #666666;
     float: right;

@@ -1,6 +1,10 @@
 {% load i18n humanize extra_filters extra_tags user_tags %}
 <div class="short-summary">
+  {% if question.author.username == 'faqrobot' %}
+    <div class="question-summary-wrapper cityquestion">
+  {% else %}
     <div class="question-summary-wrapper">
+  {% endif %}
         <h2><a title="{{ question.summary }}" href="{{ question.get_absolute_url }}">{{question.headline}}</a></h2>
         <div class="userinfo">
             <span class="relativetime" title="{{question.last_activity_at}}">{% diff_date question.last_activity_at %}</span>
