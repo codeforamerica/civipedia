@@ -14,3 +14,5 @@ improve their neighborhoods, be that cleaning up a street, hosting a
 block party or starting a community garden. But taking the first step
 can be the hardest, and the sooner initial questions are answered, the
 more likely positive change and civic leadership will happen. 
+
+[![Code for America Tracker](http://stats.codeforamerica.org/codeforamerica/civipedia.png)](http://stats.codeforamerica.org/projects/civipedia)
