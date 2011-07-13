@@ -1,5 +1,6 @@
 .DS_Store
 .ds_store
-osqa/catalyze/settings_local.py
-osqa/catalyze/settings_local*.py
-osqa/import
+dev/catalyze/settings_local.py
+dev/catalyze/settings_local*.py
+dev/import
+db_backups

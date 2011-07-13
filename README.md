@@ -1,4 +1,4 @@
-Civipedia is an online community of practice for anyone who wants to make their city better. 
+Citihow is an online community of practice for anyone who wants to make their city better. 
 
 CfA’s OSQA aims to support two kinds of leaders -- beginners and
 experts. For the experts -- anyone from city staff to local neighborhood
@@ -14,3 +14,26 @@ improve their neighborhoods, be that cleaning up a street, hosting a
 block party or starting a community garden. But taking the first step
 can be the hardest, and the sooner initial questions are answered, the
 more likely positive change and civic leadership will happen. 
+
+Deploying Citihow to DotCloud
+
+Sign up for a free dotcloud account
+https://www.dotcloud.com/accounts/register/
+
+Mac OS X
+Install the dotcloud command line tools
+Open Terminal and run the following command
+sudo easy_install pip && sudo pip install dotcloud
+
+When the installation is finished, run “dotcloud” for the first time and enter your API key.
+Your API key is displayed in your Settings page
+https://www.dotcloud.com/accounts/settings
+
+$ dotcloud
+Enter your api key (You can find it at http://www.dotcloud.com/account/settings): 
+
+Clone a copy of the citihow repository to a new directory
+git clone https://github.com/codeforamerica/civipedia citihow
+
+
+[![Code for America Tracker](http://stats.codeforamerica.org/codeforamerica/civipedia.png)](http://stats.codeforamerica.org/projects/civipedia)
