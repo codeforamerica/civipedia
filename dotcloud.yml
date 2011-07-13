@@ -1,7 +1,0 @@
-dev:
-  type: python
-  approot: dev
-db:
-  type: mysql
-smtp:
-  type: smtp
