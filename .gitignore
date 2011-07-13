@@ -4,3 +4,4 @@ dev/catalyze/settings_local.py
 dev/catalyze/settings_local*.py
 dev/import
 db_backups
+dotcloud.yml
