@@ -43,8 +43,8 @@ Change to the citihow directory, which should have a dotcloud.yml file
 in it
     cd citihow
 
-*** This gets a little more complicated, we're working on simplfying
-these steps but until then follow along closely ***
+This gets a little more complicated, we're working on simplfying
+these steps but until then follow along closely
 
 Push the code to the dotcloud applicaiton
     dotcloud push citihow
