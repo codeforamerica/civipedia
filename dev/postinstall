@@ -1,0 +1,2 @@
+# DotCloud deploy post install
+cp /home/dotcloud/settings_local.py /home/dotcloud/current/catalyze/settings_local.py
